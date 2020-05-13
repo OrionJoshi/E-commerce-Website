@@ -27,6 +27,7 @@
                         <a href="customer_register.php">Register</a>
                     </li>
                     <li>
+                        <a href="checkout.php">My Account</a>
                     </li>
                     <li></li>
                     <li></li>
