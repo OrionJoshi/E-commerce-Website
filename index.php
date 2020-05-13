@@ -29,7 +29,9 @@
                     <li>
                         <a href="checkout.php">My Account</a>
                     </li>
-                    <li></li>
+                    <li>
+                        <a href="cart.php">Go To Cart</a>
+                    </li>
                     <li></li>
 
                 </ul> <!-- menu Begin -->
