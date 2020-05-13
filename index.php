@@ -17,8 +17,23 @@
 
                 <a href="#" class="btn btn-success btn-sm">Welcome</a>
                 <a href="#">4 Item in your Cart | Total Price: $300</a>
-            </div> <!-- col-md-6 offer Begin -->
 
+            </div> <!-- col-md-6 offer Begin -->
+            <div class="col-md-6"> <!-- col-md-6 Begin -->
+
+                <ul class="menu"> <!-- menu Begin -->
+
+                    <li>
+                        <a href="customer_register.php">Register</a>
+                    </li>
+                    <li>
+                    </li>
+                    <li></li>
+                    <li></li>
+
+                </ul> <!-- menu Begin -->
+
+            </div> <!-- col-md-6 End -->
         </div> <!-- Container End -->
 
     </div>  <!-- Top End --> 
