@@ -29,8 +29,12 @@
                     <li>
                         <a href="checkout.php">My Account</a>
                     </li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <a href="cart.php">Go To Cart</a>
+                    </li>
+                    <li>
+                        <a href="checkout.php">Login</a>
+                    </li>
 
                 </ul> <!-- menu Begin -->
 
