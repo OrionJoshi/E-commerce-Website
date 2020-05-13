@@ -9,6 +9,19 @@
 </head>
 <body>
     
+    <div id="top">   <!-- Top Begin -->
+
+        <div class="container"> <!-- Container Begin -->
+
+            <div class="col-md-6 offer"> <!-- col-md-6 offer Begin -->
+
+                <a href="#" class="btn btn-success btn-sm">Welcome</a>
+                <a href="#">4 Item in your Cart | Total Price: $300</a>
+            </div> <!-- col-md-6 offer Begin -->
+
+        </div> <!-- Container End -->
+
+    </div>  <!-- Top End --> 
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
