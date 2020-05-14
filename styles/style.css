@@ -1,7 +1,14 @@
+/* General styles */
 body{
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
     background: #f0f0f0;
     overflow-x: hidden;
+}
+
+/* Top Styles */
+#top{
+    background: #555555;
+    padding: 10px 0;
 }
