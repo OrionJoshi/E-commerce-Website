@@ -12,33 +12,34 @@
     <div id="top">   <!-- Top Begin -->
 
         <div class="container"> <!-- Container Begin -->
+            <div class="row"> <!-- Row Begin -->
+                <div class="col-md-6 offer"> <!-- col-md-6 offer Begin -->
 
-            <div class="col-md-6 offer"> <!-- col-md-6 offer Begin -->
+                    <a href="#" class="btn btn-success btn-sm">Welcome</a>
+                    <a href="#">4 Item in your Cart | Total Price: $300</a>
 
-                <a href="#" class="btn btn-success btn-sm">Welcome</a>
-                <a href="#">4 Item in your Cart | Total Price: $300</a>
+                </div> <!-- col-md-6 offer Begin -->
+                <div class="col-md-6"> <!-- col-md-6 Begin -->
 
-            </div> <!-- col-md-6 offer Begin -->
-            <div class="col-md-6"> <!-- col-md-6 Begin -->
+                    <ul class="menu"> <!-- menu Begin -->
 
-                <ul class="menu"> <!-- menu Begin -->
+                        <li>
+                            <a href="customer_register.php">Register</a>
+                        </li>
+                        <li>
+                            <a href="checkout.php">My Account</a>
+                        </li>
+                        <li>
+                            <a href="cart.php">Go To Cart</a>
+                        </li>
+                        <li>
+                            <a href="checkout.php">Login</a>
+                        </li>
 
-                    <li>
-                        <a href="customer_register.php">Register</a>
-                    </li>
-                    <li>
-                        <a href="checkout.php">My Account</a>
-                    </li>
-                    <li>
-                        <a href="cart.php">Go To Cart</a>
-                    </li>
-                    <li>
-                        <a href="checkout.php">Login</a>
-                    </li>
+                    </ul> <!-- menu Begin -->
 
-                </ul> <!-- menu Begin -->
-
-            </div> <!-- col-md-6 End -->
+                </div> <!-- col-md-6 End -->
+            </div> <!-- Row End -->
         </div> <!-- Container End -->
 
     </div>  <!-- Top End --> 

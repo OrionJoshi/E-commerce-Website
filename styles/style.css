@@ -29,3 +29,29 @@ body{
         text-align: center;
     }
 }
+#top a{
+    color: #ffffff;
+}
+#top ul,menu{
+    padding-top: 5px;
+    margin: 0px;
+    text-align: right;
+    font-size: 12px;
+    list-style: none;
+}
+@media(max-width: 991px){
+    #top ul.menu{
+        text-align: center;
+    }
+}
+#top ul.menu >li{
+    display: inline-block;
+}
+#top ul.menu >li{
+    color: #eeeeee;
+}
+#top ul.menu >li + li:before{
+    content: "|\00a0";
+    color: #f7f7f7;
+    padding: 0 5px;
+}
