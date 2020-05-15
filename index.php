@@ -12,13 +12,16 @@
     <div id="top">   <!-- Top Begin -->
 
         <div class="container"> <!-- Container Begin -->
+
             <div class="row"> <!-- Row Begin -->
+
                 <div class="col-md-6 offer"> <!-- col-md-6 offer Begin -->
 
                     <a href="#" class="btn btn-success btn-sm">Welcome</a>
                     <a href="#">4 Item in your Cart | Total Price: $300</a>
 
                 </div> <!-- col-md-6 offer Begin -->
+
                 <div class="col-md-6"> <!-- col-md-6 Begin -->
 
                     <ul class="menu"> <!-- menu Begin -->
@@ -39,10 +42,28 @@
                     </ul> <!-- menu Begin -->
 
                 </div> <!-- col-md-6 End -->
+
             </div> <!-- Row End -->
+
         </div> <!-- Container End -->
 
     </div>  <!-- Top End --> 
+
+    <div id="navbar" class="navbar navbar-default"> <!-- navbar navbar-default Begin-->
+
+        <div class="container"> <!-- Container Begin-->
+
+            <div class="navbar-header"> <!-- navbar-header Begin-->
+
+                 <a href="index.php" class="navbar-brand home"> <!-- navbar-brand home Begin-->
+
+                 </a> <!-- navbar-brand home Top-->
+
+            </div> <!-- navbar-header End-->
+
+        </div> <!-- Container End -->
+
+    </div> <!-- navbar navbar-default End-->
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
