@@ -96,18 +96,51 @@
                     
                     </ul> <!-- nav navbar-nav left End-->
                 </div> 
-                <a href="cart.php" class="btn navbar-btn btn-primary right"> <!-- btn navbar-btn btn-primary right Begin-->
+                <a href="cart.php" class="btn navbar-btn btn-primary right" style="float:right;"> <!-- btn navbar-btn btn-primary right Begin-->
+
                     <i class="fa fa-shopping-cart"></i>
+
                     <span>4 Items in Your Cart</span>
+
                 </a> <!-- btn navbar-btn btn-primary right End-->
-                <div class="navbar-collapse collapse right"> <!-- navbar-collapse collapse right Begin-->
+
+                <div class="navbar-collapse collapse right" style="float:right;"> <!-- navbar-collapse collapse right Begin-->
+
                     <button class="btn btn-primary navbar-btn" type="button" data-toggle="collapse" data-target="#search">
+
                         <span class="sr-only">Toggle Search</span>
+
                         <i class="fa fa-search"></i>
+
                     </button>
+
                 </div>  <!-- navbar-collapse collapse right End-->
+
+                <div class="collapse clearfix" id="search">  <!-- collapse clearfix Begin-->
+
+                    <form method="get" action="results.php" class="navbar-form"> <!-- navbar-form Begin-->
+
+                        <div class="input-group">  <!-- input-group" Begin-->
+                            <span class="input-group-btn">
+                            <input type="text" class="form-control" name="user_query" placeholder="Search" required>
+
+                            <button type="submit" name="search" value="search" class="btn btn-primary"> <!-- btn btn-primary Begin-->
+
+                                <i class="fa fa-search"></i>
+                            
+                            </button> <!-- btn btn-primary Begin-->
+                            </span>
+
+                        </div>  <!-- input-group End-->
+
+                    </form>  <!-- navbar-form End-->
+                
+                </div>  <!-- collapse clearfix End-->
+
             </div>   <!-- navbar-collapse collapse End-->
+
         </div> <!-- Container End -->
+
     </div> <!-- navbar navbar-default End-->
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
