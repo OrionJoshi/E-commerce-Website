@@ -62,21 +62,21 @@
                     <img style="width:53px; height=33px;" src="images/logo.jpg" alt="Store logo" class="visible-xs rounded-circle ">
                 </a> <!-- navbar-brand home Top-->
 
-                <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation"> <!-- navbar-toggle Begin-->
                     <span class="sr-only">Toggle Navigation</span>
                     <i class="fa fa-align-justify"></i>
-                </button>
-                <button class="navbar-toggle" data-toggle="collapse" data-target="#search">
+                </button> <!-- navbar-toggle End-->
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#search"> <!-- navbar-toggle Begin-->
                     <span class="sr-only">Toggle Search</span>
                     <i class="fa fa-search"></i>
-                </button>
+                </button> <!-- navbar-toggle End-->
 
             </div> <!-- navbar-header End-->
-            <div class="navbar-collapse collapse" id="navigation">
+            <div class="navbar-collapse collapse" id="navigation"> <!-- navbar-collapse collapse Begin-->
 
-                <div class="padding-nav">
+                <div class="padding-nav"> <!-- Padding-nav Begin-->
 
-                    <ul class="nav navbar-nav left">
+                    <ul class="nav navbar-nav left"> <!-- nav navbar-nav left Begin-->
                   
                         <li class="active">
                             <a href="index.php">Home</a>
@@ -94,10 +94,53 @@
                             <a href="contact.php">Contact Us</a>
                         </li>
                     
-                    </ul>
+                    </ul> <!-- nav navbar-nav left End-->
                 </div> 
-            </div>   
+                <a href="cart.php" class="btn navbar-btn btn-primary right" style="float:right;"> <!-- btn navbar-btn btn-primary right Begin-->
+
+                    <i class="fa fa-shopping-cart"></i>
+
+                    <span>4 Items in Your Cart</span>
+
+                </a> <!-- btn navbar-btn btn-primary right End-->
+
+                <div class="navbar-collapse collapse right" style="float:right;"> <!-- navbar-collapse collapse right Begin-->
+
+                    <button class="btn btn-primary navbar-btn" type="button" data-toggle="collapse" data-target="#search">
+
+                        <span class="sr-only">Toggle Search</span>
+
+                        <i class="fa fa-search"></i>
+
+                    </button>
+
+                </div>  <!-- navbar-collapse collapse right End-->
+
+                <div class="collapse clearfix" id="search">  <!-- collapse clearfix Begin-->
+
+                    <form method="get" action="results.php" class="navbar-form"> <!-- navbar-form Begin-->
+
+                        <div class="input-group">  <!-- input-group" Begin-->
+                            <span class="input-group-btn">
+                            <input type="text" class="form-control" name="user_query" placeholder="Search" required>
+
+                            <button type="submit" name="search" value="search" class="btn btn-primary"> <!-- btn btn-primary Begin-->
+
+                                <i class="fa fa-search"></i>
+                            
+                            </button> <!-- btn btn-primary Begin-->
+                            </span>
+
+                        </div>  <!-- input-group End-->
+
+                    </form>  <!-- navbar-form End-->
+                
+                </div>  <!-- collapse clearfix End-->
+
+            </div>   <!-- navbar-collapse collapse End-->
+
         </div> <!-- Container End -->
+
     </div> <!-- navbar navbar-default End-->
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
