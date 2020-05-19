@@ -142,6 +142,39 @@
         </div> <!-- Container End -->
 
     </div> <!-- navbar navbar-default End-->
+
+    <div class="container" id="slider">
+
+        <div class="col-md-12">
+        
+            <div class="carousel slide" id="myCarousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="myCarousel" data-slide-top="0"></li>
+                    <li data-target="myCarousel" data-slide-top="1"></li>
+                    <li data-target="myCarousel" data-slide-top="2"></li>
+                    <li data-target="myCarousel" data-slide-top="3"></li>
+
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img src="admin_area/slides_images/slide1.jpg" alt="Slide_image">
+                    </div>
+                    <div class="item">
+                        <img src="admin_area/slides_images/slide2.jpg" alt="Slide_image">
+                    </div>
+                    <div class="item">
+                        <img src="admin_area/slides_images/slide3.jpg" alt="Slide_image">
+                    </div>
+                    <div class="item">
+                        <img src="admin_area/slides_images/slide4.jpg" alt="Slide_image">
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+    </div> <!-- Container Finish -->
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
