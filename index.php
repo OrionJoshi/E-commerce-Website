@@ -182,6 +182,46 @@
         </div>
     </div>
     
+    <div id="advantages"> <!-- advantage begin -->
+        <div class="container">
+            <div class="same-height-row">
+                <div class="col-sm-4">
+                    <div class="box same-height">
+                        <div class="icon">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <h3><a href="#">We love our customer</a></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla a, odit impedit, 
+                        cum error unde nobis illum perferendis consectetur quis iusto et aperiam harum sunt itaque 
+                        necessitatibus in? Ab.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="box same-height">
+                        <div class="icon">
+                            <i class="fa fa-tag"></i>
+                        </div>
+                        <h3><a href="#">Best Price</a></h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quibusdam aliquam tempora
+                         modi id fuga officia suscipit! Doloribus quidem ea ipsam iste vero nostrum omnis necessitatibus
+                        cupiditate dicta recusandae! Saepe! </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="box same-height">
+                        <div class="icon">
+                            <i class="fa fa-thumbs-up"></i>
+                        </div>
+                        <h3><a href="#">100% Original Product</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis molestiae, ipsam nam aut 
+                        officia vitae sit magni consequatur fugiat expedita. Ab sit debitis sed magnam est quibusdam 
+                        possimus incidunt ducimus.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- advantage End -->
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
