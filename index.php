@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce</title>
+    <link rel="stylesheet" href="styles/style.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
+<style>
+    #slider{
+        margin-bottom: 40px;
+    }
+/*  advantage Styles */
+    #advantages{
+        text-align: center;
+    }
+    #advantages .box{
+        background: #ffffff;
+        margin: 0 0 30px;
+        border: solid 1px #e6e6e6;
+        box-sizing: border-box;
+        padding: 20px;
+        box-shadow: 0px 2px 5px rgb(0, 0, 0, .3);
+    }
+
+
+</style>
 <body>
     
     <div id="top">   <!-- Top Begin -->
@@ -144,7 +161,7 @@
         </div> <!-- Container End -->
 
     </div> <!-- navbar navbar-default End-->
-    <div class="container">
+    <div class="container" id="slider">
         <div class="col-md-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -182,7 +199,41 @@
         </div>
     </div>
     
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <div id="advantages"> <!-- advantage begin -->
+        <div class="container">
+            <div class="same-height-row">
+                <div class="col-sm-4">
+                    <div class="box same-height">
+                        <div class="icon">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <h3><a href="#">Best Offer</a></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla a, odit impedit,</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="box same-height">
+                        <div class="icon">
+                            <i class="fa fa-tag"></i>
+                        </div>
+                        <h3><a href="#">Best Price</a></h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quibusdam aliquam tempora</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="box same-height">
+                        <div class="icon">
+                            <i class="fa fa-thumbs-up"></i>
+                        </div>
+                        <h3><a href="#">100% Original Product</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis molestiae, ipsam nam aut.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- advantage End -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
