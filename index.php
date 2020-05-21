@@ -267,8 +267,7 @@
                             </a>
                         </p>
                     </div>
-                </div>
-            </div>
+                </div></div>
 
             <div class="col-sm-4 col-sm-6 single">
                 <div class="product">
@@ -291,8 +290,7 @@
                             </a>
                         </p>
                     </div>
-                </div>
-            </div>
+                </div></div>
 
             <div class="col-sm-4 col-sm-6 single">
                 <div class="product">
@@ -315,8 +313,7 @@
                             </a>
                         </p>
                     </div>
-                </div>
-            </div>
+                </div></div>
             <div class="col-sm-4 col-sm-6 single">
                 <div class="product">
                     <a href="details.php">
@@ -386,6 +383,12 @@
             </div>
         </div>
     </div>
+
+    <?php 
+        
+        include("includes/footer.php");
+
+    ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
