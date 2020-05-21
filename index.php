@@ -17,7 +17,7 @@
     #advantages{
         text-align: center;
     }
-    #advantages .box{
+    .box{
         background: #ffffff;
         margin: 0 0 30px;
         border: solid 1px #e6e6e6;
@@ -25,8 +25,6 @@
         padding: 20px;
         box-shadow: 0px 2px 5px rgb(0, 0, 0, .3);
     }
-
-
 </style>
 <body>
     
@@ -233,6 +231,164 @@
             </div>
         </div>
     </div> <!-- advantage End -->
+
+    <div id="hot">
+        <div class="box">
+            <div class="container">
+                <div class="col-md-12">
+                    <h2>
+                        Our Latest Product
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content" class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-6 single">
+                <div class="product">
+                    <a href="details.php">
+                        <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product-1">
+                    </a>
+                    <div class="text">
+                        <h3>
+                            <a href="details.php">
+                                M-Dev Logo Rubix-Cube
+                            </a>
+                        </h3>
+                        <p class="price">$30</p>
+                        <p class="button">
+                            <a href="details.php" class="btn btn-default">View Details</a>
+                            <a href="details.php" class="btn btn-primary">
+                                <i class="fa fa-shopping-cart">
+                                    Add To Cart
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div></div>
+
+            <div class="col-sm-4 col-sm-6 single">
+                <div class="product">
+                    <a href="details.php">
+                        <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product-1">
+                    </a>
+                    <div class="text">
+                        <h3>
+                            <a href="details.php">
+                                M-Dev Logo Rubix-Cube
+                            </a>
+                        </h3>
+                        <p class="price">$30</p>
+                        <p class="button">
+                            <a href="details.php" class="btn btn-default">View Details</a>
+                            <a href="details.php" class="btn btn-primary">
+                                <i class="fa fa-shopping-cart">
+                                    Add To Cart
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div></div>
+
+            <div class="col-sm-4 col-sm-6 single">
+                <div class="product">
+                    <a href="details.php">
+                        <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product-1">
+                    </a>
+                    <div class="text">
+                        <h3>
+                            <a href="details.php">
+                                M-Dev Logo Rubix-Cube
+                            </a>
+                        </h3>
+                        <p class="price">$30</p>
+                        <p class="button">
+                            <a href="details.php" class="btn btn-default">View Details</a>
+                            <a href="details.php" class="btn btn-primary">
+                                <i class="fa fa-shopping-cart">
+                                    Add To Cart
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div></div>
+            <div class="col-sm-4 col-sm-6 single">
+                <div class="product">
+                    <a href="details.php">
+                        <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product-1">
+                    </a>
+                    <div class="text">
+                        <h3>
+                            <a href="details.php">
+                                M-Dev Logo Rubix-Cube
+                            </a>
+                        </h3>
+                        <p class="price">$30</p>
+                        <p class="button">
+                            <a href="details.php" class="btn btn-default">View Details</a>
+                            <a href="details.php" class="btn btn-primary">
+                                <i class="fa fa-shopping-cart">
+                                    Add To Cart
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div><div class="col-sm-4 col-sm-6 single">
+                <div class="product">
+                    <a href="details.php">
+                        <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product-1">
+                    </a>
+                    <div class="text">
+                        <h3>
+                            <a href="details.php">
+                                M-Dev Logo Rubix-Cube
+                            </a>
+                        </h3>
+                        <p class="price">$30</p>
+                        <p class="button">
+                            <a href="details.php" class="btn btn-default">View Details</a>
+                            <a href="details.php" class="btn btn-primary">
+                                <i class="fa fa-shopping-cart">
+                                    Add To Cart
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div><div class="col-sm-4 col-sm-6 single">
+                <div class="product">
+                    <a href="details.php">
+                        <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product-1">
+                    </a>
+                    <div class="text">
+                        <h3>
+                            <a href="details.php">
+                                M-Dev Logo Rubix-Cube
+                            </a>
+                        </h3>
+                        <p class="price">$30</p>
+                        <p class="button">
+                            <a href="details.php" class="btn btn-default">View Details</a>
+                            <a href="details.php" class="btn btn-primary">
+                                <i class="fa fa-shopping-cart">
+                                    Add To Cart
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?php 
+        
+        include("includes/footer.php");
+
+    ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
