@@ -9,23 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<style>
-    #slider{
-        margin-bottom: 40px;
-    }
-/*  advantage Styles */
-    #advantages{
-        text-align: center;
-    }
-    .box{
-        background: #ffffff;
-        margin: 0 0 30px;
-        border: solid 1px #e6e6e6;
-        box-sizing: border-box;
-        padding: 20px;
-        box-shadow: 0px 2px 5px rgb(0, 0, 0, .3);
-    }
-</style>
 <body>
     
     <div id="top">   <!-- Top Begin -->
