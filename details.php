@@ -162,7 +162,43 @@
             <div class="col-md-3">
                 <?php include("includes/sidebar.php"); ?>
             </div>
+            <div class="col-md-9">
+                <div id="productMain" class="row">
+                    <div class="col-sm-6">
+                        <div id="mainImage">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>
 
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <center><img class="img-responsive" src="admin_area/product_images/product-3.jpg" alt="Product-5"></center>
+                                    </div>
+                                    <div class="item">
+                                        <center><img class="img-responsive" src="admin_area/product_images/product-4.jpg" alt="Product-5"></center>
+                                    </div>
+                                    <div class="item">
+                                        <center><img class="img-responsive" src="admin_area/product_images/product-3.jpg" alt="Product-5"></center>
+                                    </div>
+                                </div>
+
+                                <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
