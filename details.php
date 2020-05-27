@@ -197,6 +197,58 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-sm-6">
+                        <div class="box">
+                            <h1 class="text-center">M-Dev Polo Shirt Men</h1>
+                            <form action="" class="form-horizontal" method="post">
+                                <div class="form-group">
+                                    <label for="" class="col-md-5 control-label">Products Quantity</label>
+                                    <div class="col-md-7">
+                                        <select name="product_qty" id="" class="form-control">
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4</option>
+                                            <option value="">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-5 control-label">Product Size</label>
+
+                                    <div class="col-md-7">
+                                        <select name="product_size" class="form-control">
+                                            <option value="">Select a Size</option>
+                                            <option value="">Small</option>
+                                            <option value="">Medium</option>
+                                            <option value="">Large</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <p class="price">$50</p>
+                                <p class="text-center buttons"><button class="btn btn-primary i fa fa-shopping-cart"> Add to cart</button></p>
+                            </form>
+                        </div>
+                        <div class="row" id="thumbs">
+                            <div class="col-xs-4">
+                                <a href="#" class="thumb">
+                                    <img src="admin_area/product_images/product-4.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="#" class="thumb">
+                                    <img src="admin_area/product_images/product-3.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="#" class="thumb">
+                                    <img src="admin_area/product_images/product-4.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
