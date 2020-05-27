@@ -231,6 +231,23 @@
                                 <p class="text-center buttons"><button class="btn btn-primary i fa fa-shopping-cart"> Add to cart</button></p>
                             </form>
                         </div>
+                        <div class="row" id="thumbs">
+                            <div class="col-xs-4">
+                                <a href="#" class="thumb">
+                                    <img src="admin_area/product_images/product-4.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="#" class="thumb">
+                                    <img src="admin_area/product_images/product-3.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="#" class="thumb">
+                                    <img src="admin_area/product_images/product-4.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
