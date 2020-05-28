@@ -280,6 +280,28 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-3 col-sm-6 center-responsive">
+                        <div class="product same-height">
+                            <a href="details.php">
+                                <img class="img-responsive" src="admin_area/product_images/product-4.jpg" alt="product-3">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">M-Dev Polo T-Shirt Women</a></h3>
+                                <p class="price">$40</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 center-responsive">
+                        <div class="product same-height">
+                            <a href="details.php">
+                                <img class="img-responsive" src="admin_area/product_images/product-3.jpg" alt="product-3">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">M-Dev Polo T-Shirt Women</a></h3>
+                                <p class="price">$40</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
