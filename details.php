@@ -250,6 +250,37 @@
                         </div>
                     </div>
                 </div>
+                <div class="box" id="details">
+                    <h4>Product Details</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cumque nam tenetur quam. Voluptate, dolorum possimus vitae consequatur corporis aliquid error dolores quas. Id repellat culpa cumque fugiat debitis praesentium!
+                    </p>
+                    <h4>Size</h4>
+                    <ul>
+                        <li>Small</li>
+                        <li>Medium</li>
+                        <li>Large</li>
+                    </ul>
+                    <hr>
+                </div>
+                <div id="row same-height-row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="box same-height headline">
+                            <h3 class="text-center">Products You Maybe like</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 center-responsive">
+                        <div class="product same-height">
+                            <a href="details.php">
+                                <img class="img-responsive" src="admin_area/product_images/product-3.jpg" alt="product-3">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">M-Dev Polo T-Shirt Women</a></h3>
+                                <p class="price">$40</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
