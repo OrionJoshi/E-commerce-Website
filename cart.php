@@ -178,7 +178,75 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            
+                                            <img class="img-responsive" src="admin_area/product_images/product-3.jpg" alt="Product-3">
+                                        </td>
+                                        <td>
+                                            <a href="#">M-Dev Polo Shirt Men</a>
+                                        </td>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            $50
+                                        </td>
+                                        <td>
+                                            Large
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="remove[]">
+                                        </td>
+                                        <td>
+                                            $100
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img class="img-responsive" src="admin_area/product_images/product-3.jpg" alt="Product-3">
+                                        </td>
+                                        <td>
+                                            <a href="#">M-Dev Polo Shirt Men</a>
+                                        </td>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            $50
+                                        </td>
+                                        <td>
+                                            Large
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="remove[]">
+                                        </td>
+                                        <td>
+                                            $100
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img class="img-responsive" src="admin_area/product_images/product-3.jpg" alt="Product-3">
+                                        </td>
+                                        <td>
+                                            <a href="#">M-Dev Polo Shirt Men</a>
+                                        </td>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            $50
+                                        </td>
+                                        <td>
+                                            Large
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="remove[]">
+                                        </td>
+                                        <td>
+                                            $100
                                         </td>
                                     </tr>
                                 </tbody>
