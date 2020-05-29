@@ -158,6 +158,35 @@
                 </ul>
 
             </div>
+            <div id="cart" class="col-md-9">
+                <div class="box">
+                    <form action="cart.php" method="post" enctype="multipart/form-data">
+                        <h1>Shopping Cart</h1>
+                        <p class="text-muted">You currnetly have 3 item(s) in your cart</p>
+                        <div class="table-responsive">
+                            <div class="table">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">Products</th>
+                                        <th>Quantity</th>
+                                        <th>Unit Price</th>
+                                        <th>Size</th>
+                                        <th colspan="2">Delete</th>
+                                        <th colspan="2">Sub-Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
