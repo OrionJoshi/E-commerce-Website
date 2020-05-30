@@ -205,6 +205,12 @@ body{
         margin: 0px auto;
     }
 }
+
+/* Cart.php styles */
+
+#content #cart .table tbody tr td img{
+    width: 50px;
+}
 /* Footer Styles */
 #footer{
     background: #e0e0e0;
