@@ -321,6 +321,45 @@
                     <div class="box-header">
                         <h3>Order Summary</h3>
                     </div>
+                    <p class="text-muted">
+                        Shipping and additional costs are calculated based on value you have entered
+                    </p>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Order Sub-Total
+                                    </td>
+                                    <th> $200 </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Shipping and Handling 
+                                    </td>
+                                    <td>
+                                        $0
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Tax 
+                                    </td>
+                                    <td>
+                                        $0
+                                    </td>
+                                </tr>
+                                <tr class="total">
+                                    <td>
+                                       Total
+                                    </td>
+                                    <td>
+                                        $200
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
