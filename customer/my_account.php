@@ -29,16 +29,16 @@
                     <ul class="menu"> <!-- menu Begin -->
 
                         <li>
-                            <a href="customer_register.php">Register</a>
+                            <a href="../customer_register.php">Register</a>
                         </li>
                         <li>
-                            <a href="checkout.php">My Account</a>
+                            <a href="my_account.php">My Account</a>
                         </li>
                         <li>
-                            <a href="cart.php">Go To Cart</a>
+                            <a href="../cart.php">Go To Cart</a>
                         </li>
                         <li>
-                            <a href="checkout.php">Login</a>
+                            <a href="../checkout.php">Login</a>
                         </li>
 
                     </ul> <!-- menu Begin -->
@@ -79,19 +79,19 @@
                     <ul class="nav navbar-nav left"> <!-- nav navbar-nav left Begin-->
                   
                         <li>
-                            <a href="index.php">Home</a>
+                            <a href="../index.php">Home</a>
+                        </li>
+                        <li>
+                            <a href="../shop.php">Shop</a>
                         </li>
                         <li class="active">
-                            <a href="shop.php">Shop</a>
+                            <a href="my_account.php">My Account</a>
                         </li>
                         <li>
-                            <a href="checkout.php">My Account</a>
+                            <a href="../cart.php">Shopping Cart</a>
                         </li>
                         <li>
-                            <a href="cart.php">Shopping Cart</a>
-                        </li>
-                        <li>
-                            <a href="contact.php">Contact Us</a>
+                            <a href="../contact.php">Contact Us</a>
                         </li>
                     
                     </ul> <!-- nav navbar-nav left End-->
@@ -152,7 +152,7 @@
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        Shop
+                        My Account
                     </li>
 
                 </ul>
