@@ -170,6 +170,12 @@
                         }
                     
                     ?>
+                    <?php 
+                        if(isset($_GET['pay_offline'])){
+                            include("pay_offline.php");
+                        }
+                    
+                    ?>
                 </div>
             </div>
         </div>
