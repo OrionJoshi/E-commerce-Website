@@ -57,7 +57,7 @@
             
             <div class="navbar-header"> <!-- navbar-header Begin-->
 
-                <a href="index.php" class="navbar-brand home"> <!-- navbar-brand home Begin-->
+                <a href="../index.php" class="navbar-brand home"> <!-- navbar-brand home Begin-->
                     <img style="width:50px; height=49px;" src="images/shopping-online.jpg" alt="Store logo" class="hidden-xs rounded-circle">
                     <img style="width:53px; height=33px;" src="images/logo.jpg" alt="Store logo" class="visible-xs rounded-circle ">
                 </a> <!-- navbar-brand home Top-->
