@@ -182,6 +182,12 @@
                         }
                     
                     ?>
+                    <?php 
+                        if(isset($_GET['change_pass'])){
+                            include("change_pass.php");
+                        }
+                    
+                    ?>
                 </div>
             </div>
         </div>
